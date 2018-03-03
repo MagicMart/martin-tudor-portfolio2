@@ -1,5 +1,6 @@
-# martin-tudor-portfolio
+# Martin Tudor's Portfolio
 
 ## Description
 
-This is my portfolio that I created for the my FEND **Udacity** Nanodegree course sponsored by **Google**.
+This is my portfolio site that I created for the the FEND **Udacity** Nanodegree course sponsored by **Google**.
+
