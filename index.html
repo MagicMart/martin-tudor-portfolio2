@@ -27,7 +27,11 @@
         <main>
             <!-- introduce myself here -->
             <div class="row">
-                <img src="imgs/greenfield.jpg" class="col-6 article-img" alt="A green field with hazy sun">
+               <img srcset="imgs/greenfield-320w.jpg 320w,
+                             imgs/greenfield-450w.jpg 450w,
+                             imgs/greenfield-550w.jpg 550w" sizes="(max-width: 320px) 280px,
+                             (max-width: 450px) 450px,
+                              550px" src="imgs/greenfield-550w.jpg" class="col-6 article-img" alt="A green field with hazy sun">
                 <article class="col-6 article-text">
                     <h2>Code your vision</h2>
                     <p>Hi. My name is Martin.</p>
