@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <title>Martin Tudor's Portfolio</title>
@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Martin Tudor">
     <meta name="keywords" content="web development, front-end web development">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" defer>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -27,7 +27,10 @@
         <main>
             <!-- introduce myself here -->
             <div class="row">
-               <img src="imgs/greenfield-550w.jpg" class="col-6 article-img" alt="A green field with hazy sun">
+                <picture class="col-6 article-img">
+                    <source srcset="imgs/greenfield-550w.webp" type="image/webp">
+                    <img src="imgs/greenfield-550w.jpg" class="row" alt="A green field with hazy sun">
+                </picture>
                 <article class="col-6 article-text">
                     <h2>Code your vision</h2>
                     <p>Hi. My name is Martin.</p>
@@ -45,7 +48,10 @@
             <section class="row">
                 <h2 class="row">Featured Work</h2>
                 <div class="col-4 featured">
-                    <img src="imgs/robin.png" class="row" alt="European Robin, Animal Trading Card">
+                    <picture>
+                        <source srcset="imgs/robin.webp" type="image/webp">
+                        <img src="imgs/robin.png" class="row" alt="European Robin, Animal Trading Card">
+                    </picture>
                     <a href="https://codepen.io/MagicMart/full/LOLjJB/" class="row"><h3>Animal Trading Card</h3></a>
                 </div>
                 <div class="col-4 featured">
@@ -66,7 +72,7 @@
                 <a href="https://codepen.io/MagicMart/" class="col-6"><img src="imgs/Button-Black-Large.png" alt="codepen logo"></a>
             </nav>
             <div class="row">
-                <p>Copyright 2018 Martin Tudor</p>
+                <p>Copyright Martin Tudor</p>
             </div>
         </footer>
     </div>
