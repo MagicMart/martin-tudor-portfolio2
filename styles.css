@@ -1,7 +1,10 @@
 * {
+
     -webkit-box-sizing: border-box;
+
     box-sizing: border-box;
 }
+
 
 body {
     font-family: "Roboto Mono", monospace;
@@ -29,10 +32,11 @@ a {
 /*class grid will make sure the page doesn't expand beyond 960px*/
 
 .grid {
+    box-shadow: 7px -5px 20px 0px #808080;
     max-width: 960px;
     margin: 0 auto;
     border: 1px solid #ff5733;
-    background: #d9dce0;
+    background: #e8eaed;
 }
 
 
@@ -102,8 +106,8 @@ a {
 /*give the images some padding and rounded corners*/
 
 img {
-    padding: 10px;
-    border-radius: 10%;
+    padding: 15px;
+    border-radius: 15%;
 }
 
 .article-img {
@@ -113,9 +117,11 @@ img {
 
 /*article text is a slightly lighter grey than the body grey*/
 
-.article-text {
+/* .article-text {
     background-color: #e8eaed;
 }
+ */
+
 
 
 /*below 611px, the main section will be one column*/
