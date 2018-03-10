@@ -40,7 +40,7 @@ a {
 }
 
 
-/*use flexbox. The class row will fill a whole box*/
+/*use flexbox. The class "row" will be the width of the box*/
 
 .row {
     display: -webkit-box;
