@@ -25,6 +25,7 @@ p {
 }
 
 p {
+    text-align: justify;
     font-size: 110%;
 }
 
@@ -35,6 +36,7 @@ hr {
 a {
     justify-content: center;
 }
+
 
 
 /*class grid will make sure the page doesn't expand beyond 960px*/
@@ -48,6 +50,7 @@ a {
 }
 
 
+
 /*use flexbox. The class "row" will be the width of the box*/
 
 .row {
@@ -58,6 +61,7 @@ a {
     flex-wrap: wrap;
     width: 100%
 }
+
 
 
 /*make 12 column sizes for the page*/
@@ -111,6 +115,7 @@ a {
 }
 
 
+
 /*give the images some padding and rounded corners*/
 
 img {
@@ -123,13 +128,14 @@ img {
 }
 
 
+
 /*article text is a slightly lighter grey than the body grey*/
+
 
 /* .article-text {
     background-color: #e8eaed;
 }
  */
-
 
 
 /*below 611px, the main section will be one column*/
