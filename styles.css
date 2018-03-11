@@ -44,6 +44,7 @@ a {
 .grid {
     box-shadow: 7px -5px 20px 0px #808080;
     max-width: 960px;
+    padding: 8px;
     margin: 0 auto;
     border: 1px solid #ff5733;
     /*background: #e8eaed;*/
