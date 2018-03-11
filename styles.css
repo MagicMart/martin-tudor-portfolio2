@@ -24,6 +24,10 @@ p {
     margin: 4px;
 }
 
+.p {
+    font-size: 110%;
+}
+
 hr {
     border: 3px solid rgb(255, 0, 0);
 }
