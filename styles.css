@@ -8,7 +8,7 @@
 
 body {
     font-family: "Roboto Mono", monospace;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 h1,
@@ -39,6 +39,7 @@ a {
 
 
 
+
 /*class grid will make sure the page doesn't expand beyond 960px*/
 
 .grid {
@@ -50,8 +51,9 @@ a {
 }
 
 main {
-     padding: 8px;
+    padding: 8px;
 }
+
 
 
 
@@ -65,6 +67,7 @@ main {
     flex-wrap: wrap;
     width: 100%
 }
+
 
 
 
@@ -120,6 +123,7 @@ main {
 
 
 
+
 /*give the images some padding and rounded corners*/
 
 img {
@@ -130,6 +134,7 @@ img {
 .article-img {
     height: 100%;
 }
+
 
 
 
