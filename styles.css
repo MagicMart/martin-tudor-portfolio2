@@ -41,6 +41,7 @@ a {
 
 
 
+
 /*class grid will make sure the page doesn't expand beyond 960px*/
 
 .grid {
@@ -52,8 +53,9 @@ a {
 }
 
 main {
-    padding: 8px;
+    /*padding: 8px;*/
 }
+
 
 
 
@@ -68,6 +70,7 @@ main {
     flex-wrap: wrap;
     width: 100%
 }
+
 
 
 
@@ -127,16 +130,23 @@ main {
 
 
 
+
 /*give the images some padding and rounded corners*/
 
 img {
-    padding: 15px;
+
     border-radius: 15%;
+    background-color: grey;
+}
+
+.container-padding {
+    padding: 15px;
 }
 
 .article-img {
     height: 100%;
 }
+
 
 
 
