@@ -1,171 +1,143 @@
-* {
-
-    -webkit-box-sizing: border-box;
-
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-
 body {
-    font-family: "Roboto Mono", monospace;
-    font-size: 1em;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1em;
 }
 
 h1,
 h2 {
-    text-shadow: 3px 3px 3px #b9bbbf;
+  text-shadow: 3px 3px 3px #b9bbbf;
 }
 
 h1,
 h2,
 h3,
 p {
-    padding: 0 4px;
-    margin: 4px;
+  padding: 0 4px;
+  margin: 4px;
 }
 
 p {
-    text-align: justify;
-    font-size: 110%;
-    line-height: 1.6;
+  text-align: justify;
+  font-size: 110%;
+  line-height: 1.6;
 }
 
 hr {
-    border: 3px solid rgb(255, 0, 0);
+  border: 3px solid rgb(255, 0, 0);
 }
 
 a {
-    justify-content: center;
+  justify-content: center;
 }
-
-
-
-
 
 /*class grid will make sure the page doesn't expand beyond 960px*/
 
 .grid {
-    box-shadow: 7px -5px 20px 0px #808080;
-    max-width: 960px;
-    margin: 0 auto;
-    border: 1px solid #ff5733;
-    /*background: #e8eaed;*/
+  box-shadow: 7px -5px 20px 0px #808080;
+  max-width: 960px;
+  margin: 0 auto;
+  border: 1px solid #ff5733;
+  /*background: #e8eaed;*/
 }
-
-main {
-    /*padding: 8px;*/
-}
-
-
-
-
 
 /*use flexbox. The class "row" will be the width of the box*/
 
 .row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    width: 100%
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
 }
-
-
-
-
-
-
 
 /*make 12 column sizes for the page*/
 
 .col-1 {
-    width: 8.33%;
+  width: 8.33%;
 }
 
 .col-2 {
-    width: 16.66%;
+  width: 16.66%;
 }
 
 .col-3 {
-    width: 25%;
+  width: 25%;
 }
 
 .col-4 {
-    width: 33.33%;
+  width: 33.33%;
 }
 
 .col-5 {
-    width: 41.66%;
+  width: 41.66%;
 }
 
 .col-6 {
-    width: 50%;
+  width: 50%;
 }
 
 .col-7 {
-    width: 58.33%;
+  width: 58.33%;
 }
 
 .col-8 {
-    width: 66.66%;
+  width: 66.66%;
 }
 
 .col-9 {
-    width: 75%;
+  width: 75%;
 }
 
 .col-10 {
-    width: 83.33%;
+  width: 83.33%;
 }
 
 .col-11 {
-    width: 91.66%;
+  width: 91.66%;
 }
 
 .col-12 {
-    width: 100%;
+  width: 100%;
 }
-
-
-
-
 
 /*give the images some padding and rounded corners*/
 
 img {
-
-    border-radius: 15%;
-    background-color: white;
+  border-radius: 15%;
+  background-color: white;
 }
 
 .container-padding {
-    padding: 15px;
+  padding: 15px;
 }
 
 .article-img {
-    height: 100%;
+  height: 100%;
 }
 
-
-
-
-
 /*article text is a slightly lighter grey than the body grey*/
-
 
 /* .article-text {
     background-color: #e8eaed;
 }
  */
 
-
 /*below 611px, the main section will be one column*/
 
 @media screen and (max-width: 610px) {
-    .featured,
-    .article-img,
-    .article-text {
-        width: 100%;
-    }
+  .featured,
+  .article-img,
+  .article-text {
+    width: 100%;
+  }
 }
