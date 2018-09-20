@@ -2,12 +2,12 @@ const featuredArr = [
   {
     image: "imgs/memory-game-cards.png",
     alt: "Memory game cards",
-    link: "https://magicmart.github.io/martin-tudor-portfolio/",
+    link: "https://magicmart.github.io/memory-game-cards/",
     title: "Memory Game Cards"
   },
   {
     image: "imgs/arcade-game.png",
-    alt: "Game action from the game of life",
+    alt: "Game action from the arcade game",
     link: "https://magicmart.github.io/martin-arcade-game/",
     title: "Arcade Game"
   },
