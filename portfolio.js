@@ -18,8 +18,8 @@ const featuredArr = [
         title: "Animal Trading Card"
     },
     {
-        image: "imgs/art.png",
-        alt: "The word 'ART' drawn with the Pixel Art Maker",
+        image: "imgs/art1.png",
+        alt: "A Mark Rothko inspired art work",
         link: "https://codepen.io/MagicMart/pen/baENwe",
         title: "Pixel Art Maker"
     },
