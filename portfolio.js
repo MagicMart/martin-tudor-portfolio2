@@ -20,9 +20,9 @@ var featuredArr = [
         title: "Animal Trading Card"
     },
     {
-        image: "imgs/art1.png",
-        alt: "A Mark Rothko inspired art work",
-        link: "https://codepen.io/MagicMart/pen/baENwe",
+        image: "imgs/pixel-react.png",
+        alt: "Abstract art created with pixel-react",
+        link: "https://github.com/MagicMart/pixel-react",
         title: "Pixel Art Maker"
     },
     {
