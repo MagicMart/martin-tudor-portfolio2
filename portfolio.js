@@ -1,4 +1,6 @@
-const featuredArr = [
+"use strict";
+
+var featuredArr = [
     {
         image: "imgs/memory-game-cards.png",
         alt: "Memory game cards",
@@ -32,19 +34,25 @@ const featuredArr = [
 ];
 
 function featured(arr) {
-    const stuff = document.getElementById("featured");
-    const frag = document.createDocumentFragment();
-    arr.forEach(elem => {
-        const div = document.createElement("div");
+    "use strict";
+    var stuff = document.getElementById("featured");
+    var frag = document.createDocumentFragment();
+    arr.forEach(function(elem) {
+        var div = document.createElement("div");
         div.classList = "col-4 featured container-padding";
         div.setAttribute("role", "listitem");
         div.setAttribute("aria-labelledby", "featured");
         div.insertAdjacentHTML(
             "beforeend",
-            `<img src="${elem.image}" class="row" alt="${elem.alt}">
-       <a href="${elem.link}" class="row">  
-         <h3>${elem.title}</h3>
-        </a>`
+            '<img src="' +
+                elem.image +
+                '" class="row" alt="' +
+                elem.alt +
+                '">\n       <a href="' +
+                elem.link +
+                '" class="row">  \n         <h3>' +
+                elem.title +
+                "</h3>\n        </a>"
         );
         frag.appendChild(div);
     });
