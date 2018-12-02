@@ -1,32 +1,34 @@
-"use strict";
+import "./main.css";
+
+("use strict");
 
 const featuredArr = [
     {
-        image: "imgs/memory-game-cards.png",
+        image: "src/imgs/memory-game-cards.png",
         alt: "Memory game cards",
         link: "https://magicmart.github.io/memory-game-cards/",
         title: "Memory Game Cards"
     },
     {
-        image: "imgs/arcade-game.png",
+        image: "src/imgs/arcade-game.png",
         alt: "Game action from the arcade game",
         link: "https://magicmart.github.io/martin-arcade-game/",
         title: "Arcade Game"
     },
     {
-        image: "imgs/robin.png",
+        image: "src/imgs/robin.png",
         alt: "European Robin",
         link: "https://codepen.io/MagicMart/full/LOLjJB/",
         title: "Animal Trading Card"
     },
     {
-        image: "imgs/pixel-react.png",
+        image: "src/imgs/pixel-react.png",
         alt: "Abstract art created with pixel-react",
         link: "https://github.com/MagicMart/pixel-react",
         title: "Pixel Art Maker"
     },
     {
-        image: "imgs/gliders.png",
+        image: "src/imgs/gliders.png",
         alt: "A still image from The Game Of life app",
         link: "https://magicmart.github.io/Game-of-Life/",
         title: "Game of Life"
