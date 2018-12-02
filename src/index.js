@@ -1,32 +1,37 @@
 import "./main.css";
+import memoryGameCards from "./imgs/memory-game-cards.png";
+import arcadeGame from "./imgs/arcade-game.png";
+import robin from "./imgs/robin.png";
+import pixelReact from "./imgs/pixel-react.png";
+import gliders from "./imgs/gliders.png";
 
 const featuredArr = [
     {
-        image: "./src/imgs/memory-game-cards.png",
+        image: memoryGameCards,
         alt: "Memory game cards",
         link: "https://magicmart.github.io/memory-game-cards/",
         title: "Memory Game Cards"
     },
     {
-        image: "./src/imgs/arcade-game.png",
+        image: arcadeGame,
         alt: "Game action from the arcade game",
         link: "https://magicmart.github.io/martin-arcade-game/",
         title: "Arcade Game"
     },
     {
-        image: "./src/imgs/robin.png",
+        image: robin,
         alt: "European Robin",
         link: "https://codepen.io/MagicMart/full/LOLjJB/",
         title: "Animal Trading Card"
     },
     {
-        image: "./src/imgs/pixel-react.png",
+        image: pixelReact,
         alt: "Abstract art created with pixel-react",
         link: "https://github.com/MagicMart/pixel-react",
         title: "Pixel Art Maker"
     },
     {
-        image: "./src/imgs/gliders.png",
+        image: gliders,
         alt: "A still image from The Game Of life app",
         link: "https://magicmart.github.io/Game-of-Life/",
         title: "Game of Life"
