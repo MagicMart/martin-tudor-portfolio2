@@ -1,7 +1,5 @@
 import "./main.css";
 
-("use strict");
-
 const featuredArr = [
     {
         image: "src/imgs/memory-game-cards.png",
@@ -36,6 +34,7 @@ const featuredArr = [
 ];
 
 function featured(arr) {
+    "use strict";
     const stuff = document.getElementById("featured");
     const frag = document.createDocumentFragment();
     arr.forEach(elem => {
