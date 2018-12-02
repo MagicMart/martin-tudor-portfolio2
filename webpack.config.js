@@ -29,19 +29,19 @@ module.exports = {
             },
             {
                 test: /\.(jpg|png|gif|svg)$/,
-                loader: 'image-webpack-loader',
+                loader: "image-webpack-loader",
                 // Specify enforce: 'pre' to apply the loader
                 // before url-loader/svg-url-loader
                 // and not duplicate it in rules with them
-                enforce: 'pre'
-              },
+                enforce: "pre"
+            },
             {
                 test: /\.(png|jpe?g)/i,
                 use: [
                     {
                         loader: "url-loader",
                         options: {
-                            name: "./imgs/[name].[ext]",
+                            name: "./src/imgs/[name].[ext]",
                             limit: 10000
                         }
                     },
