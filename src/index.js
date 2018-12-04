@@ -45,6 +45,7 @@ function featured(arr) {
     arr.forEach(elem => {
         const div = document.createElement("div");
         div.className = "col-4 featured container-padding";
+        div.setAttribute("role", "listitem");
         div.insertAdjacentHTML(
             "beforeend",
             `<img src="${elem.image}" class="row" alt="${elem.alt}">
