@@ -4,8 +4,15 @@ import arcadeGame from "./imgs/arcade-game.png";
 import robin from "./imgs/robin.png";
 import pixelReact from "./imgs/pixel-react.png";
 import gliders from "./imgs/gliders.png";
+import memoryCards2 from "./imgs/memoryCards2.png";
 
 const featuredArr = [
+    {
+        image: memoryCards2,
+        alt: "Memory game cards - with React.js",
+        link: "https://github.com/MagicMart/memory-game-cards2",
+        title: "React - Memory Game Cards"
+    },
     {
         image: memoryGameCards,
         alt: "Memory game cards",
