@@ -1,7 +1,7 @@
 import "./main.css";
 import memoryGameCards from "./imgs/memory-game-cards.png";
 import arcadeGame from "./imgs/arcade-game.png";
-import robin from "./imgs/robin.png";
+import weatherApp from "./imgs/weather_app.png";
 import pixelReact from "./imgs/pixel-react.png";
 import gliders from "./imgs/gliders.png";
 import memoryCards2 from "./imgs/memoryCards2.png";
@@ -26,10 +26,10 @@ const featuredArr = [
         title: "Arcade Game"
     },
     {
-        image: robin,
-        alt: "European Robin",
-        link: "https://codepen.io/MagicMart/full/LOLjJB/",
-        title: "Animal Trading Card"
+        image: weatherApp,
+        alt: "Still from weather app",
+        link: "https://kind-rosalind-4408cd.netlify.com/",
+        title: "Weather App"
     },
     {
         image: pixelReact,
