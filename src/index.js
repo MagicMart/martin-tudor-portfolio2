@@ -51,7 +51,7 @@ function featured(arr) {
     const frag = document.createDocumentFragment();
     arr.forEach(elem => {
         const div = document.createElement("div");
-        div.className = "featured container-padding";
+        div.className = "container-padding";
         div.setAttribute("role", "listitem");
         div.insertAdjacentHTML(
             "beforeend",
