@@ -23,7 +23,10 @@ module.exports = {
                 use: [
                     {
                         loader: "html-loader",
-                        options: { minimize: true }
+                        options: {
+                            minimize: true,
+                            removeAttributeQuotes: false
+                        }
                     }
                 ]
             },
