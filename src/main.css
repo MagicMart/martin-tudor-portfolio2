@@ -79,6 +79,7 @@ a {
 img {
     border-radius: 15%;
     background-color: white;
+    object-fit: cover;
 }
 
 .container-padding {
