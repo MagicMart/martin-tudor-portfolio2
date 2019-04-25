@@ -28,7 +28,7 @@ const featuredArr = [
     {
         image: weatherApp,
         alt: "Still from weather app",
-        link: "https://kind-rosalind-4408cd.netlify.com/",
+        link: "https://martin-weather-app.netlify.com/",
         title: "Weather App"
     },
     {
