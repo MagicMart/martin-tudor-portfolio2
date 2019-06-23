@@ -1,6 +1,6 @@
 import "./main.css";
 import memoryGameCards from "./imgs/memory-game-cards.png";
-import arcadeGame from "./imgs/arcade-game.png";
+import simpleBlogger from "./imgs/simple-blogger.png";
 import weatherApp from "./imgs/weather_app.png";
 import pixelReact from "./imgs/pixel-react.png";
 import gliders from "./imgs/gliders.png";
@@ -10,7 +10,7 @@ const featuredArr = [
     {
         image: memoryCards2,
         alt: "Memory game cards - with React.js",
-        link: "https://github.com/MagicMart/memory-game-cards2",
+        link: "https://github.com/MagicMart/memory-game-cards2/",
         title: "React - Memory Game Cards"
     },
     {
@@ -20,10 +20,10 @@ const featuredArr = [
         title: "Memory Game Cards"
     },
     {
-        image: arcadeGame,
-        alt: "Game action from the arcade game",
-        link: "https://magicmart.github.io/martin-arcade-game/",
-        title: "Arcade Game"
+        image: simpleBlogger,
+        alt: "Simple Blogger front page",
+        link: "https://simple-blogger.netlify.com/",
+        title: "Simple Blogger"
     },
     {
         image: weatherApp,
