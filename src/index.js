@@ -1,10 +1,10 @@
 import "./main.css";
 import memoryGameCards from "./imgs/memory-game-cards.png";
 import simpleBlogger from "./imgs/simple-blogger.png";
-import weatherApp from "./imgs/weather_app.png";
+import weatherApp from "./imgs/weather_app.jpg";
 import pixelReact from "./imgs/pixel-react.png";
 import gliders from "./imgs/gliders.png";
-import memoryCards2 from "./imgs/memoryCards2.png";
+import memoryCards2 from "./imgs/memoryCards2.jpg";
 
 const featuredArr = [
     {
