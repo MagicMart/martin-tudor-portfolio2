@@ -5,6 +5,7 @@ import weatherApp from "./imgs/weather_app.jpg";
 import pixelReact from "./imgs/pixel-react.png";
 import gliders from "./imgs/gliders.png";
 import memoryCards2 from "./imgs/memoryCards2.jpg";
+document.querySelector("body").style.visibility = "visible";
 
 const featuredArr = [
     {
