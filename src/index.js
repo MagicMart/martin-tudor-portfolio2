@@ -56,9 +56,7 @@ function featured(arr) {
         div.setAttribute("role", "listitem");
         div.insertAdjacentHTML(
             "beforeend",
-            `<img src="${
-                elem.image
-            }"  style="width:280px;height:186.67px;" alt="${elem.alt}">
+            `<img src="${elem.image}"  style="width:280px;height:186.67px;" alt="${elem.alt}">
          <a href="${elem.link}">  
            <h3>${elem.title}</h3>
           </a>`
