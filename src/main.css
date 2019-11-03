@@ -52,7 +52,7 @@ a {
 
 /*class grid will make sure the page doesn't expand beyond 960px*/
 
-.grid {
+.container {
     box-shadow: 7px -5px 20px 0px #808080;
     max-width: 960px;
     margin: 0 auto;

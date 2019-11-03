@@ -1,107 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=UA-139935156-1"
-        ></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
 
-            gtag("config", "UA-139935156-1");
-        </script>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139935156-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
 
-        <title>Martin Tudor's Portfolio</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="author" content="Martin Tudor" />
-        <meta
-            name="keywords"
-            content="web development, front-end web development"
-        />
-        <meta name="Description" content="Martin Tudor's Portfolio Site" />
-        <style>
-            body {
-                visibility: hidden;
-            }
-        </style>
-    </head>
+        gtag("config", "UA-139935156-1");
+    </script>
 
-    <body>
-        <!-- class grid width set to max 960px. The page will be no wider -->
-        <div class="grid">
-            <header class="row">
-                <div class="logo container-padding">
-                    <img src="imgs/mylogo.png" alt="Martin Tudor's logo" />
+    <title>Martin Tudor's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Martin Tudor" />
+    <meta name="keywords" content="web development, front-end web development" />
+    <meta name="Description" content="Martin Tudor's Portfolio Site" />
+    <style>
+        body {
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="row">
+            <div class="logo container-padding">
+                <img src="imgs/mylogo.png" alt="Martin Tudor's logo" />
+            </div>
+            <div class="introduction" tabindex="0">
+                <h1>Martin Tudor</h1>
+                <h2 class="front-end">Web Developer</h2>
+            </div>
+        </header>
+        <hr />
+        <main>
+            <div class="row">
+                <div class="article-img container-padding">
+                    <div class="code"></div>
                 </div>
-                <div class="introduction" tabindex="0">
-                    <h1>Martin Tudor</h1>
-                    <h2 class="front-end">Web Developer</h2>
-                </div>
-            </header>
-            <hr />
-            <main>
-                <!-- introduce myself here -->
-                <div class="row">
-                    <div class="article-img container-padding">
-                        <div class="code"></div>
-                    </div>
-                    <article
-                        class="article-text container-padding"
-                        tabindex="0"
-                    >
-                        <h2>Martin Tudor</h2>
-                        <p>Hi.</p>
-                        <p>
-                            In November 2017, I was selected for the Google
-                            Udacity Challenge Scholarship.
-                            <q>200K initial application</q>
-                        </p>
-                        <p>
-                            In February 2018, I was selected for the full Google
-                            Udacity FEND Nanadogree Scholarship. I was
-                            <q><b>part of the 3%</b></q
-                            >.
-                        </p>
-                        <p>
-                            This month, my favourite colours are antiquewhite
-                            and red.
-                        </p>
-                    </article>
-                </div>
-                <!-- images - and below them, links to my code creations -->
-                <section>
-                    <h3>Featured Work</h3>
-                    <div
-                        class="row"
-                        id="featured"
-                        role="list"
-                        aria-label="Featured work"
-                    ></div>
-                </section>
-            </main>
-            <hr />
-            <!-- links to my github and codepen profiles -->
-            <footer class="row">
-                <a
-                    href="https://github.com/MagicMart"
-                    class="col-6 container-padding"
-                    ><img src="imgs/GitHub-Mark-64px.png" alt="github logo"
-                /></a>
+                <article class="article-text container-padding" tabindex="0">
+                    <h2>Martin Tudor</h2>
+                    <p>Hi.</p>
+                    <p>
+                        In November 2017, I was selected for the Google
+                        Udacity Challenge Scholarship.
+                        <q>200K initial application</q>
+                    </p>
+                    <p>
+                        In February 2018, I was selected for the full Google
+                        Udacity FEND Nanadogree Scholarship. I was
+                        <q><b>part of the 3%</b></q>.
+                    </p>
+                    <p>
+                        This month, my favourite colours are antiquewhite
+                        and red.
+                    </p>
+                </article>
+            </div>
 
-                <a
-                    href="https://codepen.io/MagicMart/"
-                    class="col-6 container-padding"
-                    ><img src="imgs/Button-Black-Large.png" alt="codepen logo"
-                /></a>
+            <section>
+                <h3>Featured Work</h3>
+                <div class="row" id="featured" role="list" aria-label="Featured work"></div>
+            </section>
+        </main>
+        <hr />
 
-                <div class="row"><p>&copy; 2018 Martin Tudor</p></div>
-            </footer>
-        </div>
-    </body>
+        <footer class="row">
+            <a href="https://github.com/MagicMart" class="col-6 container-padding"><img src="imgs/GitHub-Mark-64px.png"
+                    alt="github logo" /></a>
+
+            <a href="https://codepen.io/MagicMart/" class="col-6 container-padding"><img
+                    src="imgs/Button-Black-Large.png" alt="codepen logo" /></a>
+
+            <div class="row">
+                <p>&copy; 2018 Martin Tudor</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>
