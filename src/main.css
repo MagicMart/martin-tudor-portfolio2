@@ -55,18 +55,15 @@ a:hover {
     border: 1px solid #ff5733;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
+.row,
 #featured {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.col-6 {
-    width: 50%;
+.col-2 {
+    width: 48%;
 }
 
 img {
@@ -75,19 +72,8 @@ img {
     object-fit: cover;
 }
 
-.container-padding {
-    padding: 5px;
-}
-
-.article-img,
-.article-text {
-    width: 50%;
-    height: auto;
-}
-
 @media screen and (max-width: 600px) {
-    .article-img,
-    .article-text {
+    .col-2 {
         width: 100%;
     }
     header {
