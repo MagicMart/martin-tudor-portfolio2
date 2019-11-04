@@ -22,7 +22,7 @@ h1,
 h2,
 h3 {
     text-align: center;
-    margin: 0.15em;
+    margin: 5px;
 }
 
 p {
@@ -44,10 +44,6 @@ hr {
     );
 }
 
-a:hover {
-    color: #ff0000;
-}
-
 .container {
     box-shadow: 7px -5px 20px 0px #808080;
     max-width: 960px;
@@ -60,6 +56,26 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.featured-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 12px;
+    margin: 5px;
+}
+
+.button:hover {
+    background: #015001;
+    color: white;
 }
 
 .col-2 {
