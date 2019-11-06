@@ -20,9 +20,14 @@ header {
 
 h1,
 h2,
-h3 {
+.subtitle {
     text-align: center;
     margin: 5px;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
 p {
@@ -73,7 +78,8 @@ hr {
     margin: 5px;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
     background: #015001;
     color: white;
 }
