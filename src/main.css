@@ -18,6 +18,10 @@ header {
     align-items: center;
 }
 
+.logo {
+    width: 64px;
+}
+
 h1,
 h2 {
     text-align: center;
@@ -70,6 +74,12 @@ hr {
     align-items: center;
 }
 
+#featured img {
+    border-radius: 15%;
+    background-color: white;
+    object-fit: cover;
+}
+
 .button {
     display: inline-block;
     font-size: 1.2rem;
@@ -87,12 +97,6 @@ hr {
 
 .col-2 {
     width: 48%;
-}
-
-img {
-    border-radius: 15%;
-    background-color: white;
-    object-fit: cover;
 }
 
 @media screen and (max-width: 600px) {
