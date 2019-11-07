@@ -19,15 +19,16 @@ header {
 }
 
 h1,
-h2,
-.subtitle {
+h2 {
     text-align: center;
     margin: 5px;
 }
 
 .subtitle {
+    display: block;
     font-size: 1.4rem;
     font-weight: 700;
+    color: #d15c21;
 }
 
 p {
