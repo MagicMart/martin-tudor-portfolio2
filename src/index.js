@@ -1,5 +1,5 @@
 import "./main.css";
-import memoryGameCards from "./imgs/memory-game-cards.png";
+import sequence from "./imgs/sequence2.jpg";
 import simpleBlogger from "./imgs/simple-blogger.png";
 import weatherApp from "./imgs/weather_app.jpg";
 import pixelReact from "./imgs/pixel-react.png";
@@ -12,13 +12,13 @@ const featuredArr = [
         image: memoryCards2,
         alt: "Memory game cards - with React.js",
         link: "https://github.com/MagicMart/memory-game-cards2/",
-        title: "React - Memory Game Cards"
+        title: "Memory Game Cards"
     },
     {
-        image: memoryGameCards,
-        alt: "Memory game cards",
-        link: "https://magicmart.github.io/memory-game-cards/",
-        title: "Memory Game Cards"
+        image: sequence,
+        alt: "Sequence memory game",
+        link: "https://sequence-game.netlify.com/",
+        title: "Sequence"
     },
     {
         image: simpleBlogger,
