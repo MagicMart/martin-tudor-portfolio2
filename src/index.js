@@ -4,14 +4,14 @@ import simpleBlogger from "./imgs/simple-blogger.png";
 import weatherApp from "./imgs/weather_app.jpg";
 import pixelReact from "./imgs/pixel-react.png";
 import gliders from "./imgs/gliders.png";
-import memoryCards2 from "./imgs/memoryCards2.jpg";
+import memoryCards from "./imgs/memoryCards2.jpg";
 document.querySelector("body").style.visibility = "visible";
 
 const featuredArr = [
     {
-        image: memoryCards2,
+        image: memoryCards,
         alt: "Memory game cards - with React.js",
-        link: "https://github.com/MagicMart/memory-game-cards2/",
+        link: "https://marts-memory-cards.netlify.com/",
         title: "Memory Game Cards"
     },
     {
