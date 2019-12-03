@@ -75,10 +75,12 @@ hr {
     border: 1px solid #ff5733;
 }
 
-.row,
-#featured {
+.row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.space-around {
     justify-content: space-around;
 }
 
