@@ -2,7 +2,7 @@ import "./main.css";
 import sequence from "./imgs/sequence2.jpg";
 import simpleBlogger from "./imgs/simple-blogger.png";
 import weatherApp from "./imgs/weather_app.jpg";
-import pixelReact from "./imgs/pixel-react.png";
+import hackerNews from "./imgs/hacker-news.jpg";
 import gliders from "./imgs/gliders.png";
 import memoryCards from "./imgs/memoryCards2.jpg";
 document.querySelector("body").style.visibility = "visible";
@@ -12,38 +12,38 @@ const featuredArr = [
         image: memoryCards,
         alt: "Memory game cards - with React.js",
         link: "https://marts-memory-cards.netlify.com/",
-        title: "Memory Game Cards"
+        title: "Memory Game Cards",
     },
     {
         image: sequence,
         alt: "Sequence memory game",
         link: "https://sequence-game.netlify.com/",
-        title: "Sequence"
+        title: "Sequence",
     },
     {
         image: simpleBlogger,
         alt: "Simple Blogger front page",
         link: "https://simple-blogger.netlify.com/",
-        title: "Simple Blogger"
+        title: "Simple Blogger",
     },
     {
         image: weatherApp,
         alt: "Still from weather app",
         link: "https://martin-weather-app.netlify.com/",
-        title: "Weather App"
+        title: "Weather App",
     },
     {
-        image: pixelReact,
-        alt: "Abstract art created with pixel-react",
-        link: "https://github.com/MagicMart/pixel-react",
-        title: "Pixel Art Maker"
+        image: hackerNews,
+        alt: "Still showing posts from hacker news",
+        link: "https://marts-hacker-news.netlify.com/",
+        title: "Hacker News",
     },
     {
         image: gliders,
         alt: "A still image from The Game Of life app",
         link: "https://magicmart.github.io/Game-of-Life/",
-        title: "Game of Life"
-    }
+        title: "Game of Life",
+    },
 ];
 
 function featured(arr) {
