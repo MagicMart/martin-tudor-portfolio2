@@ -5,7 +5,7 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         path: path.resolve(__dirname, "docs"),
-        filename: "bundle.js"
+        filename: "bundle.js",
     },
     module: {
         rules: [
@@ -13,8 +13,8 @@ module.exports = {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 use: {
-                    loader: "babel-loader"
-                }
+                    loader: "babel-loader",
+                },
             },
 
             {
@@ -24,44 +24,26 @@ module.exports = {
                         loader: "html-loader",
                         options: {
                             minimize: true,
-                            removeAttributeQuotes: false
-                        }
-                    }
-                ]
-            },
-            {
-                test: /\.(jpg|png|gif|svg)$/,
-                loader: "image-webpack-loader",
-                // Specify enforce: 'pre' to apply the loader
-                // before url-loader/svg-url-loader
-                // and not duplicate it in rules with them
-                enforce: "pre"
-            },
-            {
-                test: /\.(png|jpe?g)/i,
-                use: [
-                    {
-                        loader: "url-loader",
-                        options: {
-                            name: "./imgs/[name].[ext]",
-                            limit: 10000
-                        }
+                            removeAttributeQuotes: false,
+                        },
                     },
-                    {
-                        loader: "img-loader"
-                    }
-                ]
+                ],
             },
+            {
+                test: /\.(png|svg|jpg|gif)$/,
+                use: ["file-loader"],
+            },
+
             {
                 test: /\.css$/,
-                use: ["style-loader", "css-loader"]
-            }
-        ]
+                use: ["style-loader", "css-loader"],
+            },
+        ],
     },
     plugins: [
         new HtmlWebPackPlugin({
             template: "./src/index.html",
-            filename: "./index.html"
-        })
-    ]
+            filename: "./index.html",
+        }),
+    ],
 };
