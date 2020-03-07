@@ -8,6 +8,9 @@ module.exports = {
         path: path.resolve(__dirname, "docs"),
         filename: "bundle.js",
     },
+    devServer: {
+        overlay: true,
+    },
     module: {
         rules: [
             {
