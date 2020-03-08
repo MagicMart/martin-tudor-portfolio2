@@ -22,18 +22,6 @@ module.exports = {
             },
 
             {
-                test: /\.html$/,
-                use: [
-                    {
-                        loader: "html-loader",
-                        options: {
-                            minimize: true,
-                            removeAttributeQuotes: false,
-                        },
-                    },
-                ],
-            },
-            {
                 test: /\.(png|svg|jpg|gif)$/,
                 use: ["file-loader"],
             },
@@ -48,6 +36,14 @@ module.exports = {
         new HtmlWebPackPlugin({
             template: "./src/index.html",
             filename: "./index.html",
+            minify: {
+                collapseWhitespace: true,
+                removeComments: true,
+                removeRedundantAttributes: true,
+                removeScriptTypeAttributes: true,
+                removeStyleLinkTypeAttributes: true,
+                useShortDoctype: true,
+            },
         }),
         new FaviconsWebpackPlugin("./src/imgs/mylogo.png"),
     ],
