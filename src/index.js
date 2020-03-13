@@ -52,16 +52,15 @@ function featured(arr) {
     const frag = document.createDocumentFragment();
     arr.forEach(elem => {
         const div = document.createElement("div");
-        div.className = "featured-card";
+        div.className = "card";
         div.setAttribute("role", "listitem");
         div.insertAdjacentHTML(
             "beforeend",
-            `<img src="${elem.image}"  width="282" height="188" alt="${elem.alt}">
-            <p>
-         <a class="button" href="${elem.link}">  
+            `<img class="card__image" src="${elem.image}"  width="282" height="188" alt="${elem.alt}">   
+         <a class="card__button" href="${elem.link}">  
            ${elem.title}
           </a>
-          </p>`
+         `
         );
         frag.appendChild(div);
     });
